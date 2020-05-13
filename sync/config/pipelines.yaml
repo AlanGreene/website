@@ -18,12 +18,46 @@ docDirectory: docs
 # latest version of contents.
 tags:
   # The name of the tag in the GitHub repository.
-- name: master
+- name: v0.12.0
   # The name to display on tekton.dev.
   # helper.py will use this value in the version switcher and other places.
-  displayName: master
+  displayName: v0.12.0
   # Key-value pairs of files to sync, where the key is the original filename
   # and the value is the new filename.
+  files:
+  - README.md: _index.md
+  - auth.md: auth.md
+  - conditions.md: conditions.md
+  - container-contract.md: container-contract.md
+  - labels.md: labels.md
+  - logs.md: logs.md
+  - migrating-from-knative-build.md: migrating-from-knative-build.md
+  - pipelineruns.md: pipelineruns.md
+  - pipelines.md: pipelines.md
+  - podtemplates.md: podtemplates.md
+  - resources.md: resources.md
+  - taskruns.md: taskruns.md
+  - tasks.md: tasks.md
+  - workspaces.md: workspaces.md
+- name: master
+  displayName: master
+  files:
+  - README.md: _index.md
+  - auth.md: auth.md
+  - conditions.md: conditions.md
+  - container-contract.md: container-contract.md
+  - labels.md: labels.md
+  - logs.md: logs.md
+  - migrating-from-knative-build.md: migrating-from-knative-build.md
+  - pipelineruns.md: pipelineruns.md
+  - pipelines.md: pipelines.md
+  - podtemplates.md: podtemplates.md
+  - resources.md: resources.md
+  - taskruns.md: taskruns.md
+  - tasks.md: tasks.md
+  - workspaces.md: workspaces.md
+- name: v0.11.3
+  displayName: v0.11.3
   files:
   - README.md: _index.md
   - auth.md: auth.md
